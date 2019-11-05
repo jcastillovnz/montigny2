@@ -5,7 +5,7 @@
 
  
   <div id="app" class="wrapper center">
-    <VueProductSpinner :class="'renders'"  :images="imgs" :infinite="true" :speed="5" :slider="false">
+    <VueProductSpinner :class="'renders'"  :images="imgs" :infinite="true" :mouseWheel="false" :speed="5" :slider="false">
  Cargando
     </VueProductSpinner>
   </div>
