@@ -49,6 +49,7 @@ export default {
 @import '/../src/css/estilos.css';
 .vue-product-spinner,
 .vue-product-spinner img {
+  
   max-width: 100%;
   margin-left: 0%;
 
