@@ -5,7 +5,7 @@
 
  
   <div id="app" class="wrapper center">
-    <VueProductSpinner :class="'renders'"  :images="imgs" :infinite="true" :slider="false">
+    <VueProductSpinner :class="'renders'"  :images="imgs" :infinite="true" :speed="5" :slider="false">
  Cargando
     </VueProductSpinner>
   </div>
@@ -50,7 +50,9 @@ export default {
 .vue-product-spinner,
 .vue-product-spinner img {
   max-width: 100%;
-  margin-left: 5%;
+  margin-left: 0%;
+
+  
 }
 
 </style>
