@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+  <title>Montigny</title>
+
+  <meta name="robots" content="index, follow" />
+  <meta name="Content-Type" charset="UTF-8">
+  <meta name="Content-Language" content="fr">   
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <meta name="Description" content="Virtual 3D Solutions for Immersive Visit">
+  <meta name="Subject" content="Virtual 3D Visit">
+
+  <meta name="Copyright" content="OFF DESIGN">
+  <meta name="geo.placename" content="Marseille" />
+  <meta name="geo.position" content="43.286159, 5.356316" />
+  <meta name="geo.region" content="Bouches-du-Rhône" />
+
+  <link rel="stylesheet" type="text/css" href="/src/assets/css/index.css"/>
+  <link rel="stylesheet" type="text/css" href="/src/assets/css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="/src/assets/css/estilos.css"/>
+
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  </head>
+ 
+<body  class="container-fluid">
+
+  
+  <div class="header">
+
+<div style="float: left;">  
+
+
+
+</div> 
+
+
+<div>
+  <a style="float: right; color: black"  href="https://www.archepromotion.com">
+    <button class="exit"  >
+  Quitter
+  </button>
+  </a>
+</div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+  </div>
+
+  <div class="container">
+
+<style type="text/css">
+body, html{
+margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;
+border: none;
+}
+iframe{
+margin:0px;
+padding: none;
+border: none;
+width:100%;
+height:100%;
+}
+</style>
+
+
+
+
+
+    <div class="container-view">
+      <h1 class="main-title">MAQUETTE</h1>
+
+      <div  class="windows" id="app" >
+
+
+        <router-view style="cursor: pointer" ></router-view>
+        
+        
+        
+        
+          </div>
+    </div>
+
+
+    <div class="container-filter">
+      <div class="filter row" id="legend">
+        <div class="legend-col-2">
+       
+
+   <div class="type">
+
+  <!--         <div class="type-color" id="color-2piece">
+            </div>
+
+            <div class="type-name">
+              <span>3 pièces</span>
+            </div> -->
+            
+          </div>
+
+
+<!--  -->
+      <div class="type">
+      
+      <div class="type-color" id="color-3piece">
+            </div>
+            <div class="type-name">
+              <span>3 pièces</span>
+            </div>
+
+
+          </div>
+
+
+    <div class="type">
+       
+     <div class="type-color" id="color-4piece">
+            </div>
+            <div class="type-name">
+              <span>4 pièces</span>
+            </div> 
+          
+          
+          </div>
+<!--  -->
+
+
+
+      
+        </div>
+
+        <div class="legend-col-1">
+       
+       
+        </div>
+      </div>
+
+      <div class="filter" id="name">
+        <div class="filter-title">
+          <h2>RESIDENCE</h2>
+        </div>
+
+     
+        <div class="filter-button">
+          <a >
+            <button class="button large active"> 
+     Montigny
+            </button>
+          </a>
+        </div>
+
+
+
+      </div>
+
+      <div class="filter" id="building">
+        <div class="filter-title">
+          <h2>IMMEUBLE</h2>
+        </div>
+        <div class="filter-button" id="button-building">
+
+          <a href="#">
+            <button class="button small active"> 
+              A
+            </button>
+          </a>
+
+          <a href="#">
+            <button class="button small"> 
+              B
+            </button>
+          </a>
+
+          <a href="#">
+            <button class="button small"> 
+              C
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="filter" id="view">
+        <div class="filter-title">
+          <h2>VUES</h2>
+        </div>
+        <div class="filter-button">
+
+
+
+            <button id="aerienne" onclick="roof(this)"  class="nav-link button large active"> 
+              Aérienne
+            </button>
+         
+
+            <button  id="pietonne" onclick="pedestrian(this)"  class="nav-link button large"> 
+              Piétonne
+            </button>
+          
+
+
+          
+        </div>
+
+      </div>
+
+      <div class="filter" id="floor">
+        <div class="filter-title">
+          <h2>NIVEAUX</h2>
+        </div>
+        <div id="myDIV" class="filter-button">
+
+
+        
+            <button id="1" onclick="r1(this)" class="nav-link button large"> 
+              1<sup>e</sup> Étage
+            </button>
+      
+
+        
+            <button id="rdc" onclick="rdc(this)" class="nav-link button large"> 
+              Rdc
+            </button>
+        
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+    <script src="/dist/build.js"></script>
+
+
+
+  </body>
+</html>
