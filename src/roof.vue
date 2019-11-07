@@ -45,7 +45,6 @@ export default {
 </script>
 
 <style >
-@import '/../src/css/estilos.css';
 
 .vue-product-spinner,
 .vue-product-spinner img {

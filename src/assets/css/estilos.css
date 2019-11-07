@@ -296,19 +296,19 @@ body{
   
   
   .icon-play{
-  background-image: url(../img/buttons/button-play-hover.png)
+  background-image: url(../img/buttons/button_play_hover.png)
   }
   
   
   
   .icon-pause{
-  background-image: url(../img/buttons/button-pause-hover.png)
+  background-image: url(../img/buttons/button_pause_hover.png)
   }
   
   
   
   #control-left{
-   background-image: url(../img/buttons/button-left.png)
+   background-image: url(../img/buttons/button_left.png)
   }
   
    #control-pause{
@@ -320,28 +320,28 @@ body{
   
   
    #control-left:hover{
-   background-image: url(../img/buttons/button-left-hover.png)
+   background-image: url(../img/buttons/button_left_hover.png)
   }
   
   #control-right{
-   background-image: url(../img/buttons/button-right.png)
+   background-image: url(../img/buttons/button_right.png)
   }
   
   #control-right:hover{
-  background-image: url(../img/buttons/button-right-hover.png)
+  background-image: url(../img/buttons/button_right_hover.png)
   }
   #control-zoom-out{
-  background-image: url(../img/buttons/button-zoom_out.png)
+  background-image: url(../img/buttons/button_zoom_out.png)
   }
   #control-zoom-out:hover{
-  background-image: url(../img/buttons/button-zoom_out-hover.png)
+  background-image: url(../img/buttons/button_zoom_out_hover.png)
   }
   
   #control-zoom-in{
-  background-image: url(../img/buttons/button-zoom_in.png)
+  background-image: url(../img/buttons/button_zoom_in.png)
   }
   #control-zoom-in:hover{
-  background-image: url(../img/buttons/button-zoom_in-hover.png)
+  background-image: url(../img/buttons/button_zoom_in_hover.png)
   }
   
   

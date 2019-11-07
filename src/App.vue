@@ -1,21 +1,22 @@
 <template>
-  <div id="app">
+  <div >
 
-  
-  
-  
-  
-  
-  
+
+<router-view style="cursor: pointer" ></router-view>
+        
+        
+
   </div>
 </template>
 
 <script>
+
+
 export default {
-  name: 'app',
+
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+
     }
   }
 }

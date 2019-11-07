@@ -155,7 +155,7 @@ button:hover{
 .logo{
     width:120px;
     height: 100%;
-    background-image: url("../imgs/logo-emerige.png");
+    background-image: url("../img/logo_emerige.png");
     background-size:100%;
     background-position: left center;
     background-repeat: no-repeat;
@@ -236,43 +236,43 @@ button:hover{
 }
 
 #control-help{
-    background-image: url(../imgs/pictogram/pictogram-help.png)
+    background-image: url(../img/buttons/pictogram_help.png)
 }
 
 #control-help:hover{
-    background-image: url(../imgs/pictogram/pictogram-help-hover.png)
+    background-image: url(../img/buttons/pictogram_help_hover.png)
 }
 
 #control-left{
-    background-image: url(../imgs/pictogram/pictogram-left.png)
+    background-image: url(../img/buttons/pictogram_left.png)
 }
 
 #control-left:hover{
-    background-image: url(../imgs/pictogram/pictogram-left-hover.png)
+    background-image: url(../img/buttons/pictogram_left_hover.png)
 }
 
 #control-right{
-    background-image: url(../imgs/pictogram/pictogram-right.png)
+    background-image: url(../img/buttons/pictogram_right.png)
 }
 
 #control-right:hover{
-    background-image: url(../imgs/pictogram/pictogram-right-hover.png)
+    background-image: url(../img/buttons/pictogram_right_hover.png)
 }
 
 #control-zoom-out{
-    background-image: url(../imgs/pictogram/pictogram-zoom_out.png)
+    background-image: url(../img/buttons/pictogram_zoom_out.png)
 }
 
 #control-zoom-out:hover{
-    background-image: url(../imgs/pictogram/pictogram-zoom_out-hover.png)
+    background-image: url(../img/buttons/pictogram_zoom_out_hover.png)
 }
 
 #control-zoom-in{
-    background-image: url(../imgs/pictogram/pictogram-zoom_in.png)
+    background-image: url(../img/buttons/pictogram_zoom_in.png)
 }
 
 #control-zoom-in:hover{
-    background-image: url(../imgs/pictogram/pictogram-zoom_in-hover.png)
+    background-image: url(../img/buttons/pictogram_zoom_in_hover.png)
 }
 
 

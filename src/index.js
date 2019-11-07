@@ -4,6 +4,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
+
+import App from './App.vue'
+import navigation from './components/navigation.vue'
 import roof from './roof.vue'
 import pedrestian from './pedrestian.vue'
 import etage3 from './etage3.vue'
@@ -11,7 +14,8 @@ import etage2 from './etage2.vue'
 import etage1 from './etage1.vue' 
 import rdc from './rdc.vue'
 
-
+import "./assets/css/estilos.css"
+import "./assets/css/index.css"
 
 const routes = [
   { path: '/', component: roof  },
@@ -26,15 +30,6 @@ const router = new VueRouter({
   routes // 
 })
 
-const app = new Vue({
+Vue({
   router
 }).$mount('#app')
-
-
-
-
-/*new Vue({
-  el: '#app',
-  render: h => h(App)
-})
-*/
