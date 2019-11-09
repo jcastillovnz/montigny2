@@ -32,6 +32,7 @@ const router = new VueRouter({
 
  new Vue({
   router,
+  base: '/montigny/',
   components: { App },
 
 }).$mount('#app')
