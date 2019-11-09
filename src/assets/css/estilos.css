@@ -1,8 +1,11 @@
-
+html{
+  cursor: pointer;
+}
 body{
   background-color: transparent;
   overflow:hidden;
   cursor: context-menu;
+
   }
   
 
@@ -15,7 +18,7 @@ body{
   -webkit-transform: translate(-50%, 0);
     }
   
-  img{
+    .wrapper{
   position: relative;
   left: 50%;
   bottom:150%;
@@ -29,7 +32,7 @@ body{
 
    
 
-  .spin {
+  .rendersyu {
   height:155%;
    z-index: 0;
   position: absolute;

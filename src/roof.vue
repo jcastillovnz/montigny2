@@ -4,9 +4,13 @@
 
 
  
-  <div id="app" class="wrapper center">
+  <div  class="wrapper">
+
+
     <VueProductSpinner :class="'renders'"  :images="imgs" :infinite="true" :mouseWheel="false" :speed="5" :slider="false">
- Cargando
+
+
+ <Loader/>
     </VueProductSpinner>
   </div>
 
@@ -20,12 +24,16 @@
 
 </style>
 <script>
+import Vue from 'vue'
+Vue.component('Loader', require('./components/loader.vue').default);
+
 import VueProductSpinner from "vue-product-spinner";
+
 
 
 const images = [...Array(30)].map(
   (_, i) =>
-    `https://jcastillovnz.github.io/montigny/iframes/roof/renders/${i +
+    `/src/assets/roof/renders/${i +
       1}.jpg`
 );
 
@@ -46,13 +54,39 @@ export default {
 
 <style >
 
-.vue-product-spinner,
-.vue-product-spinner img {
+.wrapper-container {
   
-  max-width: 100%;
-  margin-left: 0%;
+
+}
+
+
+
+
+.wrapper {
+  
+
+position: absolute;
+  width: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.renders{
+
+
+    position: relative;
+    left: 50%;
+    bottom: 50%;
+    top: -0%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    z-index: 0;
 
   
 }
+
 
 </style>

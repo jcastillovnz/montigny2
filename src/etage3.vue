@@ -16,6 +16,10 @@
 </template>
 
 <script>
+
+import Vue from 'vue'
+Vue.component('Loader', require('./components/loader.vue').default);
+
 export default {
 
 
